@@ -16,7 +16,7 @@ jobs:
     - name: clone the repo
       uses: action/checkout@v6
     - name: Install nodejs
-      uses: action/setup-nodejs@v6
+      uses: action/setup-node@v6
       with:
         node-version: 18
         cache: 'npm'
